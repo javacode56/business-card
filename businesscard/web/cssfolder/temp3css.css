@@ -1,0 +1,111 @@
+
+
+
+
+
+
+.business-card, .flippable-business-card {
+  width: 560px;
+  height: 300px;
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.flippable-business-card {
+  perspective: 1000px;
+}
+.flippable-business-card .front {
+  width: 560px;
+  height: 300px;
+  position: relative;
+  top: 13%;
+  left: 40%;
+ 
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+ .flippable-business-card .back {
+  width: 560px;
+  height: 300px;
+  position: absolute;
+  top: 15%;
+  left:40%;
+ 
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+    backface-visibility: hidden;
+  box-shadow: none;
+  background-color: darkslategray;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+.flippable-business-card .front .front-top {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+
+.flippable-business-card .front .front-bottom {
+  height: 150px;
+  display: flex;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: darkslategray;
+}
+
+.flippable-business-card .front .front-bottom > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 40px;
+  padding-left: 15px;
+}
+
+.flippable-business-card .front .front-bottom > div:last-child {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 15px;
+}
+
+
+.flippable-business-card .front .front-bottom > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flippable-business-card .back {
+ 
+
+}
+
+.flippable-business-card .back .bio {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  justify-content: space-around;
+}
+
+
+

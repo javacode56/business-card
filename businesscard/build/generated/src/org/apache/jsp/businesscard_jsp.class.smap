@@ -1,0 +1,25 @@
+SMAP
+businesscard_jsp.java
+JSP
+*S JSP
+*F
++ 0 businesscard.jsp
+businesscard.jsp
++ 1 header.jsp
+header.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+5,51:50
+5#1,49:101
+55,4:151
+58,28:155
+87,6:185
+92,5:191
+96,8:196
+55#0,2:203
+57,3:206
+59,391:209
+5#2,20:600
+449#0,6:620
+*E

@@ -1,0 +1,57 @@
+
+
+
+.business-card, .flippable-business-card {
+  width: 560px;
+  height: 300px;
+  max-width: 100%;
+  border-radius: 4px;
+  position: absolute;
+  
+  top:25%;
+  left:50%;
+  
+}
+/*  background: linear-gradient(135deg, #fff 0%, #fff 50%, rgba(0, 200, 200, 0.4) 50.5%, rgba(0, 200, 200, 0.6) 100%);
+*/
+.business-card {
+      background:rgba(0, 200, 200, 0.4)50.5%;
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.business-card .profile {
+  display: flex;
+  flex-basis: 150px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+
+
+.business-card .profile .profile-title h2 {
+  font-size: 1.4em;
+}
+.business-card .info {
+  display: flex;
+  flex-grow: 1;
+}
+.business-card .info .info-contact {
+  padding: 15px;
+  display: flex;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.business-card .info .info-bio {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 50%;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+  text-align: center;
+}
+

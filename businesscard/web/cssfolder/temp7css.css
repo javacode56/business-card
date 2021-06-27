@@ -1,0 +1,95 @@
+
+
+
+.front {
+    
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, .7), 0 17px 17px 0 rgba(0, 0, 0, .5);
+ 
+
+    
+     position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: white;
+ 
+
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+ 
+
+    width: 560px;
+  height: 300px;
+ 
+}
+
+div.front figure {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: -60px -60px;
+}
+
+
+
+
+
+.back {
+    
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, .7), 0 17px 17px 0 rgba(0, 0, 0, .5);
+
+ 
+  
+  top: 68%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: white;
+
+  font-family: 'Arimo', sans-serif;
+  
+  
+    width: 560px;
+  height: 300px;
+  position: absolute;
+}
+
+p {
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  padding: 0 1%;
+}
+
+p {
+  width: 27%;
+  margin: 0 1%;
+  float: left;
+  padding: 10px;
+  border: 2px solid #FC5135;
+  border-radius: 4px;
+  position: relative;
+  text-align: center;
+  color: #4E203C;
+}
+
+
+h1 {
+  color: #FC5135;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+
