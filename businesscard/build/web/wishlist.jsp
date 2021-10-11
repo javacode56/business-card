@@ -96,7 +96,7 @@ li a, .dropbtn {
 	 String url="jdbc:mysql://localhost:3306/card";
         // String a=(String)session.getAttribute("email");
          //String b=(String)session.getAttribute("pass");
-       String a="rahul15ks@gmail.com";
+       String a="1@.com";
        
          //String b=
             

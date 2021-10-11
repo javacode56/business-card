@@ -203,7 +203,7 @@ public final class businesscard_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\n");
       out.write("      ");
  
-          session.setAttribute("email", "rahul15ks@gmail.com");
+          session.setAttribute("email", "1@.com");
             session.setAttribute("pass", "123");
       
       out.write("   \n");
