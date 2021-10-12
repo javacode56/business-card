@@ -87,7 +87,7 @@ ImageIO.write(bufferedImage, "png",file);
 ps=con.prepareStatement("insert into card(NAME,NAME2,id) values(?,?,?)"); 
 ps.setString(1,fileName); 
 ps.setString(2,fileName1); 
-ps.setString(3,"rahul15ks@gmail.com"); 
+ps.setString(3,"1@.com"); 
 //FileInputStream fin=new FileInputStream(path+fileName); 
 //ps.setBinaryStream(2,fin,fin.available()); 
 int i=ps.executeUpdate(); 

@@ -87,7 +87,7 @@ li a, .dropbtn {
 </div>
 
       <%
-       String a="rahul15ks@gmail.com";
+       String a="1@.com";
         String img=(String)request.getParameter("img");
         String img1; 
          
@@ -125,7 +125,7 @@ Connection con;
 ps=con.prepareStatement("insert into ordercard(img,img1,id) values(?,?,?)"); 
 ps.setString(1,img); 
 ps.setString(2,img1); 
-ps.setString(3,"rahul15ks@gmail.com"); 
+ps.setString(3,"1@.com"); 
 //FileInputStream fin=new FileInputStream(path+fileName); 
 //ps.setBinaryStream(2,fin,fin.available()); 
 int i=ps.executeUpdate();

@@ -54,7 +54,7 @@ div.div1,.div2{
     <body onload="setData(); setData1();">
          <%@include file="header.jsp"%>
       <% 
-          session.setAttribute("email", "rahul15ks@gmail.com");
+          session.setAttribute("email", "1@.com");
             session.setAttribute("pass", "123");
       %>   
         
